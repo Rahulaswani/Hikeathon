@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical" >
+    
+    <TextView 
+    android:id="@+id/textview_hikeup"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:text="Hike Up your Life"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:gravity="center"
+    android:layout_weight="1.5" />
+    
+    <TextView 
+    android:id="@+id/textview_hikeup_welcome"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:text="Hike is here to help you, just let us know what you want"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:gravity="center_horizontal"
+    android:layout_weight="0.5" />
+    
+
+    <EditText 
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:id="@+id/edittext_typemsg"
+    android:textSize="15sp"
+    android:hint="Type your message here">
+   </EditText>
+
+</LinearLayout>

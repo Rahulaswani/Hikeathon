@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Hikeathon.iml" filepath="$PROJECT_DIR$/Hikeathon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hikeathon/hikeathon.iml" filepath="$PROJECT_DIR$/hikeathon/hikeathon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/roundImageLib/roundImageLib.iml" filepath="$PROJECT_DIR$/roundImageLib/roundImageLib.iml" />
+    </modules>
+  </component>
+</project>
+

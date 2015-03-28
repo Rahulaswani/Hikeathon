@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal" 
+    android:padding="5dp">
+    
+    <ImageView
+        android:id="@+id/imageView_userpic"
+        android:layout_margin="3dp"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:src="@drawable/user_photo" 
+        android:layout_weight="2"/>
+    
+    <LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:layout_weight="6">
+
+    <TextView
+        android:id="@+id/TextView_username"
+        android:textSize="20sp"
+        android:text="Rahul Aswani"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextView_message"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:padding="2dp"
+        android:text="looking to rent out a 1bhk flat at 8000/month rent can sift in "
+        android:textSize="15dp" >
+
+    </TextView>
+    </LinearLayout>
+    
+    <LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    android:layout_weight="2">
+
+        <ImageButton
+            android:id="@+id/button_save"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" 
+            android:layout_margin="2dp"
+            android:src="@drawable/favourate_70"
+            android:background="#00FFFFFF"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/button_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" 
+            android:layout_margin="2dp"
+            android:src="@drawable/chat_icon_70"
+            android:background="#00FFFFFF"
+            android:layout_weight="1"/>
+    
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

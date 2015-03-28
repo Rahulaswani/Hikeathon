@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray" >
+     
+    <fragment
+        android:name="com.appsrox.instachat.MessagesFragment"
+        android:id="@+id/msg_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" />
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" 
+        android:orientation="horizontal">
+        
+        <EditText
+            android:id="@+id/edittext_typemsg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:hint="Type your message here"
+            android:layout_weight="9"
+            android:layout_alignBottom="@+id/send_btn"
+            android:layout_toLeftOf="@+id/send_btn" >
+        </EditText>
+        
+        <ImageButton
+            android:id="@+id/btn_send"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/send"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            android:layout_alignParentRight="true"
+            android:text="Send" />
+    </LinearLayout>
+ 
+</LinearLayout>
